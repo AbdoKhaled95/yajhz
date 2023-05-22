@@ -1,0 +1,320 @@
+:root
+{
+    --main-color: rgb(255, 210, 121);
+    --second-color: rgb(0, 149, 123);
+    --thrid-color: rgb(255, 217, 151,.25);
+    --background-color: #e5e5e5;
+}
+body
+{
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+#loading
+{
+    position: fixed;
+    inset: 0;
+    background-color: rgb(255, 210, 121,.8);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#loading .loadingIcon 
+{
+    color: var(--second-color);
+    
+}
+#navBar
+{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: all .5s;
+    background-color: rgb(0, 0, 0,.3);
+}
+#navBar .container .navbar-toggler
+{
+    background-color: var(--main-color);    
+}
+#navBar .nav-link
+{
+    color: white;
+    font-weight: 500;
+}
+#navBar .collapse .active a
+{
+    color: var(--main-color) !important;
+}
+#navBar .collapse a
+{
+    transition: all .3s;
+    
+}
+#navBar .collapse a:hover
+{
+    color: var(--main-color) !important;
+    /* text-shadow: 0 0 3px #00957b; */
+}
+#navBar #langage
+{
+    background-color:var(--main-color);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 991px)
+{
+    #navBar #langage
+    {
+        margin: auto;
+        width: 40px;
+    }
+}
+
+#home .imtroSentence
+{
+    background-image: url(../images/Rectangle\ 38.jpg);
+    color: white;
+    background-size: cover;
+
+}
+#home .imtroSentence h2
+{
+   background-color: rgba(229, 181, 112, 0.18);
+
+}
+#home .appLimks h2, #home .appLimks h4
+{
+    color: var(--main-color);
+
+}
+/* #home .appLimks .sotorsLinks button
+{
+    border: none ;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--main-color);
+    transition: all, 0.3s;
+    font-size: 18px;
+}
+#home .appLimks .sotorsLinks button:hover
+{
+    background-color: var(--second-color);
+} */
+#home .appLimks .sotorsLinks a
+{
+    color: var(--second-color);
+} 
+
+/*                 categoriesView                       */
+#home .categoriesView 
+{
+    background-color: var(--thrid-color);
+}
+#home .categoriesView .categoriesLink
+{
+    text-decoration: none;
+    color: var(--second-color);
+    margin: 0 10px;
+    display: inline-block;
+    transition: all .3s;
+    cursor: pointer;
+}
+#home .categoriesView .categoriesLinks .activeCategory
+{
+    color: var(--main-color);
+    border-bottom: solid 2px var(--main-color);
+}
+#home .categoriesView .categoriesLink:hover
+{
+    
+    color: var(--main-color);
+}
+#home .categoriesView .categoryView
+{
+    position: relative;
+}
+#home .categoryView .categoryTitle
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+    margin: auto;
+    color: var(--main-color);
+    background-color: rgba(229, 181, 112, 0.18);
+    width: fit-content;
+    padding: 5px;
+}
+/* #home .categoryView .categoryImg
+{
+    height: 350px;
+} */
+
+
+
+/*                 categoriesView                       */
+
+@media only screen and (max-width: 767px)
+{
+    #home .imtroSentence
+    {
+        /* background-size: 767px 100%; */
+        background-position: center;
+    }
+    #home .appLimks .appLimksImg
+    {
+       display: none;
+    }
+}
+#joinus .registerTypes .activeType i
+{
+    background-color: var(--second-color) !important;
+}
+#joinus .registerTypes .registerType i
+{
+    background-color: var(--main-color);
+    padding: 15%;
+    border-radius: 50%;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 42px;
+}
+#joinus .registerTypes .registerType i:hover
+{
+    background-color: var(--second-color);
+
+}
+#joinus #register
+{
+    display: none;    
+}
+#joinus #register  #registerAttachment label
+{
+    font-size: 12px;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+    
+}
+#joinus #register  #registerAttachment label:hover  
+{
+    color: var(--second-color) 
+}
+#joinus #register  #registerAttachment label i
+{
+    transition: all .3s;
+    text-align: center;
+    color: white;
+    border-radius:5px ;
+    font-size: 18px;
+}
+#joinus #register  #registerAttachment label:hover i
+{
+    background-color: var(--second-color) !important;
+}
+#joinus #register #togglePassword
+{
+    position: relative;
+    margin-right: 5px;
+    margin-top: -30px;
+    cursor: pointer;
+    z-index: 1;
+}
+#joinus #register  #registerBtn
+{
+    background-color: var(--main-color);
+    color: var(--second-color);
+    border-radius: 10px;
+    transition: all .3s;
+    width: 300px;
+    font-size: 24px;
+}
+#joinus #register  #registerBtn:hover
+{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+#joinus #register small
+{
+    display: none;
+}
+#contactUS
+{
+    background-color: var(--thrid-color)
+}
+#contactUS h3
+{
+    color: var(--second-color);
+}
+#contactUS .theMessage
+{
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+#contactUS .theMessage
+{
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+#contactUS #sendMessage
+{
+    display: block;
+    background-color: var(--second-color);
+    color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 85%;
+    transition: all .3s;
+    border: transparent;
+    font-size: 20px;
+}
+#contactUS #sendMessage:hover
+{
+   color: var(--main-color);
+}
+/* #contactUS #map .mapouter
+{
+    border: 3px var(--main-color) solid;
+    border-radius: 10px;
+} */
+footer
+{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+footer  i
+{
+    font-size: 24px;
+    color: var(--main-color);
+    transition: all .3s;
+}
+footer  i:hover
+{
+    color: white;
+}
+#showSuccess
+{
+    display: none;
+    width: 320px;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    font-size: 18px;
+    z-index: 30;
+    border-radius: 10px;
+}
+#showError
+{
+    display: none;
+    width: 320px;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    font-size: 18px;
+    z-index: 25;
+    border-radius: 10px;
+}
+

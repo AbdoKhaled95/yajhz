@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- <html dir="rtl" lang="ar"> -->
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yajhz</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="webfonts/all.min.css">
+  <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+  <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+  <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div id="loading">  <!--loading screen  -->
+    <i class=" loadingIcon fa fa-spinner fa-5x fa-spin"></i>
+  </div>     <!--loading screen  -->
+  <nav id="navBar" class="navbar navbar-expand-lg navbar-light w-100">
+    <div class="container">
+      <!-- <a class="navbar-brand" href=""> -->
+        <img id="logo" src="images/Yajhz 1-02 1@2x.png" height="48px" alt="">
+        <h1 class="d-none">Yajhz</h1>
+      <!-- </a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item home active ps-4">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item joinus ps-4">
+            <a class="nav-link" href="#joinus">Join Us</a>
+          </li>
+          <li class="nav-item contactUS ps-4">
+            <a class="nav-link" href="#contactUS">Contact Us</a>
+          </li>
+          <li class="nav-item langage ps-4">
+            <a id="langage" class="nav-link" href="#langage">EN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home" > <!-- start section home -->
+    <div class="imtroSentence vh-100 d-flex justify-content-start align-items-end p-5">
+      <h2 class="p-5">All of You Want In One Place ..</h2>
+    </div>
+    <div class="container d-flex appLimks ">
+      <div class="row text-center text-lg-start align-items-md-center">
+        <div class="col-md-8 py-5">
+          <h4>Search</h4>
+          <h2>With One Click</h2>
+          <p class="pt-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, id ex assumenda omnis voluptate, voluptatum, ad eum dolore suscipit est dignissimos explicabo quibusdam odit. Similique odio id illum adipisci omnis ut iusto possimus blanditiis consequatur itaque, dolor voluptatum unde! Quia alias corrupti qui in velit optio repellat aperiam officia, accusamus, impedit asperiores natus, suscipit voluptatem eveniet error odio dolore praesentium voluptate doloremque. Ea, sapiente suscipit maiores itaque numquam maxime aut.
+          </p>
+           <div class="sotorsLinks"></div> 
+        </div>
+        <div class="appLimksImg col-md-4">
+          <img class="w-100" src="images/hotpot.png" alt="meal">
+        </div> 
+      </div>
+     </div> <!--end of appLinks -->
+    <div class="categoriesView py-3">  <!--start of categoriesView -->
+       <div class=" categoriesLinks text-center pb-4"></div>
+       <div class="categoriesDisplay m-auto container row "></div>  <!--slide -->
+    </div> <!--end of categoriesView -->  
+  </section> <!-- end section home -->
+  <section id="joinus"> <!-- start section joinus -->
+    <div class="container py-3">
+       <div class="joinUsWord d-flex">
+         <div class="row">
+            <h2 class="col-md-4 col-lg-2">Join us</h2>
+            <p class=" col-md-8 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, hic? Necessitatibus vitae, totam magnam, accusantium optio nostrum voluptatum est recusandae quisquam, illo facere mollitia laborum?</p>
+         </div>
+       </div>
+       <div class="text-center">
+         <div class="d-flex row justify-content-center registerTypes">
+           <div id="merchant" class=" col-6 col-sm-4  registerType ">
+            <i class="fa-solid fa-utensils "></i>
+            <p class="py-3">Join As Merchant</p>
+           </div>
+           <div id="representative" class="col-6 col-sm-4 registerType ">
+            <i class="fa-solid fa-motorcycle"></i>
+            <p class="py-3">Join As Representative</p>
+           </div>
+           <div id="familyProductive" class="col-6 col-sm-4 registerType ">
+            <i class="fa-solid fa-people-group "></i>
+            <p class="py-3">Join As Family Productive </p>
+           </div>
+         </div>
+      </div>
+    </div>
+    <div id="register" class="container">
+        <form action="" id="registeringForm">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 my-1 ">
+              <label class="p-1" for="name">Name</label>
+              <input type="text" class="form-control border rounded" id="name" placeholder="Write your name">
+              <small class="text-danger">alret</small>
+            </div>
+            <div class="col-lg-4 col-md-6 my-1">
+              <label class="p-1" for="password">Password</label>
+              <input type="password" class="form-control border rounded pe-4" id="password" placeholder="Write 6 characters at least">
+              <i class="bi bi-eye-slash float-end" id="togglePassword"></i>
+              <small class="text-danger">alret</small>
+            </div>
+            <div class="col-lg-4 col-md-6 my-1 ">
+              <label class="p-1" for="phoneNumber">Phone Number</label>
+              <input type="number" class="form-control border rounded" id="phoneNumber" placeholder="Write 11 number">
+              <small class="text-danger">alret</small>
+            </div>
+            <div class="col-lg-4 col-md-6 my-1 ">
+              <label class="p-1" for="address">Address</label>
+              <input type="text" class="form-control border rounded" id="address" placeholder="Write your address">
+              <small class="text-danger">alret</small>
+            </div>
+            <div class="col-lg-4 col-md-6 my-1 ">
+              <label class="p-1" for="idNumber">ID Number</label>
+              <input type="number" class="form-control border rounded" id="idNumber" placeholder="Write your ID Number">
+              <small class="text-danger">alret</small>
+            </div>
+            <div class="col-lg-4 col-md-6 my-1 ">
+              <label class="p-1" for="email">Email</label>
+              <input type="email" class="form-control border rounded" id="email" placeholder="Write your email">
+              <small class="text-danger">alret</small>
+            </div>
+            <div class="col-lg-4 col-md-6 my-1 ">
+              <label class="p-1" for="nationality">Nationality</label>
+              <input type="text" class="form-control border rounded" id="nationality" placeholder="Write your nationality">
+              <small class="text-danger">alret</small>
+            </div>
+            <div id="taxRecordDiv" class="col-lg-4 col-md-6 my-1 d-none"> <!-- Tax RecordDiv -->
+              <label class="p-1" for="taxRecord">Tax Record</label>
+              <input type="number" class="form-control border rounded" id="taxRecord" placeholder="Write your Tax Record">
+              <small class="text-danger">alret</small>
+            </div>
+             <div id="registerAttachment" class="col-lg-8 my-1 d-none ">   <!-- Register Attachment start -->
+              <div class="d-flex justify-content-center row ">
+                <div class="col-6 my-1">
+                  <input id="vehiclePictures" type="file" class="d-none fills" multiple accept=".jpg,.jpeg,.png">
+                  <label class="" for="vehiclePictures">
+                    <i class="fa-solid fa-plus bg-warning p-1"></i>
+                    Vehicle pictures
+                  </label>
+                  <small class="text-danger">alret</small>
+                </div>
+                <div class="col-6 my-1">
+                  <input id="vehicleCertificate" type="file" class="d-none fills"accept=".jpg,.jpeg,.png">
+                  <label class="" for="vehicleCertificate">
+                    <i class="fa-solid fa-plus bg-warning p-1"></i>
+                    Vehicle Certificate
+                  </label>
+                  <small class="text-danger">alret</small>
+                </div>
+                <div class="col-6 my-1">
+                  <input id="drivingCertificate" type="file" class="d-none fills"accept=".jpg,.jpeg,.png">
+                  <label class="" for="drivingCertificate">
+                    <i class="fa-solid fa-plus bg-warning p-1"></i>
+                    Driving Certificate
+                  </label>
+                  <small class="text-danger">alret</small>
+                </div>
+                <div class="col-6 my-1">
+                  <input id="vehiclePlacte" type="file" class="d-none fills"accept=".jpg,.jpeg,.png">
+                  <label class="" for="vehiclePlacte">
+                    <i class="fa-solid fa-plus bg-warning p-1"></i>
+                    Vehicle Placte
+                  </label>
+                  <small class="text-danger">alret</small>
+                </div>
+              </div> <!-- end  rigister file row -->
+            </div> <!-- end  rigister file  -->
+        </div>  <!-- end  rigister row  -->
+          <button type="submit" id="registerBtn" class="btn mt-5 d-block m-auto px-3">Register</button>
+        </form>
+    </div>  <!-- end rigister -->
+    <img class="d-block m-auto" src="images/pasta.png" height="200px" width="200px" alt="pasta">   
+  </section>   <!-- end section joinus -->
+  <section id="contactUS" class="d-flex justify-content-center">   <!-- start section contactUS -->
+      <div class="container-fluid row my-5 ">
+        <div class="col-lg-4 mb-4">
+          <h3 class="pb-4">Contact Us</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum incidunt labore nostrum sapiente, sit unde. Repudiandae, iure facere fugit provident rem omnis hic officia velit.</p>
+          <div class="contactIcon d-flex flex-column">
+          </div>
+        </div>
+        <div class="col-lg-4 theMessage mb-4 pb-4 ">
+          <div class="m-4 messageInputs">
+            <label for="senderName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="senderName" placeholder="Write your name">
+            <small class="text-danger d-none">alret</small>
+          </div>
+          <div class="m-4 messageInputs">
+            <label for="senderEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="senderEmail" placeholder="Write your Email">
+            <small class="text-danger d-none">alret</small>
+          </div>
+          <div class="m-4 messageInputs">
+            <label for="senderMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="senderMessage" rows="5"></textarea>
+            <small class="text-danger d-none">alret</small>
+          </div>
+          <button id="sendMessage"type="submit">Send</button>
+        </div>
+        <!-- <div id="map" class="col-lg-4 mb-4">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Ad%20Doqi,%20Dokki,%20Giza%20Governorate%20el%20bohoos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><a href="https://www.embedgooglemap.net">google maps api html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>          
+        </div> -->
+      </div>
+  </section>     <!-- end section contactUS -->
+  <footer>
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center ">
+        <div class="col-4 col-lg-2">
+          <img id="logo" src="images/Yajhz 1-02 1@2x.png" height="48px" alt="">
+        </div>
+        <div class="col-8 col-lg-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quibusdam eos distinctio. Enim temporibus magni fugit non suscipit dolorum quas quo exercitationem nostrum. Molestiae, obcaecati.</p>
+        </div>
+        <div id="socialMediaLinks" class="col-4 col-lg-2 ">
+        </div>
+        <div class="col-8 col-lg-3">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus eos incidunt impedit error quisquam odio ratione tempore fugiat voluptates repellat.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="showSuccess" class="alert alert-success ">
+    <i class="bi bi-check-circle"></i>
+    <span>successMessage</span>
+    </div>
+    <div id="showError" class="alert alert-danger ">
+      <i class="bi bi-x-circle"></i>
+      <span>eroorMessage</span>
+      </div>
+  <script src="js/bootstrap.bundle.min.js"></script>   
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/owl.carousel.min.js"></script> -->
+  <script type="module" src="js/main.js"></script>
+  
+  
+</body>
+
